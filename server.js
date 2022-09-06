@@ -6,9 +6,12 @@ const app = express();
 
 const port = 6000;
 
-app.get("/user", (req, res) => {
-  res.send("Hello world");
-});
+// app.get("/user", (req, res) => {
+//   res.send("Hello world");
+// });
+
+// to create route for the items route or endpoint
+app.use("/items", itemsRouter);
 
 app.listen(3000, () => {
   console.log(
