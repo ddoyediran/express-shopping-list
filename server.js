@@ -4,7 +4,7 @@ const itemsRouter = require("./route/items.js");
 
 const app = express();
 
-const port = 6000;
+const port = 3000;
 
 // app.get("/user", (req, res) => {
 //   res.send("Hello world");
